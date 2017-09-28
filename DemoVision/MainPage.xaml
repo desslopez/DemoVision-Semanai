@@ -8,7 +8,10 @@
     mc:Ignorable="d">
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-        
+        <FlyoutBase.AttachedFlyout>
+            <MenuFlyout/>
+        </FlyoutBase.AttachedFlyout>
+
         <Button x:Name="TakePhoto" Content="Camera (out of service)" HorizontalAlignment="Left" Margin="266,219,0,0" VerticalAlignment="Top" Height="47" Width="268" Click="TakePhoto_Click"/>
         <TextBox x:Name="output" HorizontalAlignment="Left" Height="273" Margin="791,335,0,0" TextWrapping="Wrap" Text="..." VerticalAlignment="Top" Width="303"/>
         <Image x:Name="image" HorizontalAlignment="Left" Height="200" Margin="307,355,0,0" VerticalAlignment="Top" Width="220"/>

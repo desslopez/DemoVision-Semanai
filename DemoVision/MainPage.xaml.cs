@@ -163,9 +163,6 @@ namespace DemoVision
             }
         }
 
-        private void GetPhotoButton_Click(System.Object sender, RoutedEventArgs e)
-        {
-
-        }
+       
     }
 }
