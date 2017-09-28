@@ -1,0 +1,20 @@
+﻿<Page
+    x:Class="DemoVision.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:DemoVision"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        
+        <Button x:Name="TakePhoto" Content="Camera (out of service)" HorizontalAlignment="Left" Margin="266,219,0,0" VerticalAlignment="Top" Height="47" Width="268" Click="TakePhoto_Click"/>
+        <TextBox x:Name="output" HorizontalAlignment="Left" Height="273" Margin="791,335,0,0" TextWrapping="Wrap" Text="..." VerticalAlignment="Top" Width="303"/>
+        <Image x:Name="image" HorizontalAlignment="Left" Height="200" Margin="307,355,0,0" VerticalAlignment="Top" Width="220"/>
+        <Button x:Name="Analiza" Content="Analyze Image" HorizontalAlignment="Left" Margin="791,125,0,0" VerticalAlignment="Top" Height="42" Width="223" Click="Analiza_Click"/>
+        <Button x:Name="GetPhotoButton" Content="Browse Image" HorizontalAlignment="Left" Height="42" Width="223"  Margin="286,120,0,0" VerticalAlignment="Top" Click="GetPhotoButton_Click"/>
+        <Button x:Name="AnalizaTexto" Content="Get Text" HorizontalAlignment="Left" Margin="791,219,0,0" VerticalAlignment="Top" Width="223" Height="42" Click="AnalizaTexto_Click"/>
+        <TextBox HorizontalAlignment="Left" Margin="600,53,0,0" TextWrapping="Wrap" Text="Nameless" VerticalAlignment="Top" FontSize="24" Foreground="Teal" FontFamily="Segoe UI" />
+    </Grid>
+</Page>
