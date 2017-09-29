@@ -163,6 +163,9 @@ namespace DemoVision
             }
         }
 
-       
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            System.Console.WriteLine("Hello World");
+        }
     }
 }

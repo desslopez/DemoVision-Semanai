@@ -19,5 +19,6 @@
         <Button x:Name="GetPhotoButton" Content="Browse Image" HorizontalAlignment="Left" Height="42" Width="223"  Margin="286,120,0,0" VerticalAlignment="Top" Click="GetPhotoButton_Click"/>
         <Button x:Name="AnalizaTexto" Content="Get Text" HorizontalAlignment="Left" Margin="791,219,0,0" VerticalAlignment="Top" Width="223" Height="42" Click="AnalizaTexto_Click"/>
         <TextBox HorizontalAlignment="Left" Margin="600,53,0,0" TextWrapping="Wrap" Text="Nameless" VerticalAlignment="Top" FontSize="24" Foreground="Teal" FontFamily="Segoe UI" />
+        <Button Content="Button" HorizontalAlignment="Left" Margin="404,311,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.077,-0.285" Click="Button_Click"/>
     </Grid>
 </Page>
